@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600&family=Inter:wght@300;400;500&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  background: radial-gradient(circle at top, #e6d9ff, #3b235a);
+  color: #fff;
+  min-height: 100vh;
+}
+
+.container {
+  max-width: 900px;
+  margin: auto;
+  padding: 30px 20px 60px;
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 2.6rem;
+  color: #f3e7ff;
+  margin-bottom: 0;
+}
+
+.subtitle {
+  color: #e5d6ff;
+  margin-bottom: 25px;
+}
+
+.image-frame {
+  background: linear-gradient(145deg, #5a3d8c, #3d1f5f);
+  padding: 14px;
+  border-radius: 18px;
+  box-shadow: 0 20px 50px rgba(0,0,0,0.4);
+  margin-bottom: 25px;
+}
+
+.image-frame img {
+  width: 100%;
+  max-height: 480px;
+  object-fit: contain;
+  border-radius: 12px;
+  transition: opacity 0.6s ease;
+}
+
+.controls {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 25px;
+}
+
+button {
+  background: linear-gradient(135deg, #d4af37, #f5d76e);
+  border: none;
+  color: #2b1840;
+  padding: 12px 22px;
+  font-size: 1rem;
+  font-weight: 500;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+}
+
+.reflection {
+  background: rgba(255,255,255,0.08);
+  border-radius: 18px;
+  padding: 25px;
+  text-align: left;
+  backdrop-filter: blur(8px);
+}
+
+.reflection h2 {
+  font-family: 'Playfair Display', serif;
+  color: #f8e9ff;
+}
+
+.reflection ul {
+  padding-left: 20px;
+}
+
+.reflection li {
+  margin-bottom: 10px;
+  line-height: 1.6;
+}
+
+.hidden {
+  display: none;
+}
