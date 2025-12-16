@@ -34,7 +34,7 @@ function showImage() {
   imgEl.style.opacity = 0;
 
   setTimeout(() => {
-    imgEl.src = `images/${shuffled[index]}`;
+    imgEl.src = shuffled[index];
     imgEl.style.opacity = 1;
   }, 300);
 }
