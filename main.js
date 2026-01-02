@@ -17,6 +17,7 @@ const images = [
   "OffsetCardi.png",
   "PapouseRemy.png",
   "RussellCiara.png",
+  "NellyAshanti.png",
   "WillJada.png"
 ];
 
